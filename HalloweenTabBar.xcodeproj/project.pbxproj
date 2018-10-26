@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83E684FC6CAA0DB8764E49D7 /* Pods_HalloweenTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139A63C3A88C4458D5A3D94D /* Pods_HalloweenTabBar.framework */; };
 		C9F22AA121834D2D00033E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F22AA021834D2D00033E7F /* AppDelegate.swift */; };
 		C9F22AA321834D2D00033E7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F22AA221834D2D00033E7F /* ViewController.swift */; };
-		C9F22AA621834D2D00033E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F22AA421834D2D00033E7F /* Main.storyboard */; };
 		C9F22AA821834D2F00033E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F22AA721834D2F00033E7F /* Assets.xcassets */; };
 		C9F22AAB21834D2F00033E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F22AA921834D2F00033E7F /* LaunchScreen.storyboard */; };
+		C9F22AB321834D9700033E7F /* FlatUIColorsSwift.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F22AB221834D9700033E7F /* FlatUIColorsSwift.xcassets */; };
+		C9F22AB521834DA500033E7F /* HalloweenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F22AB421834DA500033E7F /* HalloweenService.swift */; };
+		C9F22AB721834FF100033E7F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F22AB621834FF100033E7F /* MainTabBarController.swift */; };
+		C9F22AB92183548A00033E7F /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F22AB82183548A00033E7F /* DummyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		139A63C3A88C4458D5A3D94D /* Pods_HalloweenTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalloweenTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		918F94E9AD48AE394248BFAC /* Pods-HalloweenTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalloweenTabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HalloweenTabBar/Pods-HalloweenTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		AE429F6173E786700E92C782 /* Pods-HalloweenTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalloweenTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-HalloweenTabBar/Pods-HalloweenTabBar.release.xcconfig"; sourceTree = "<group>"; };
 		C9F22A9D21834D2D00033E7F /* HalloweenTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalloweenTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F22AA021834D2D00033E7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9F22AA221834D2D00033E7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9F22AA521834D2D00033E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9F22AA721834D2F00033E7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9F22AAA21834D2F00033E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9F22AAC21834D2F00033E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F22AB221834D9700033E7F /* FlatUIColorsSwift.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlatUIColorsSwift.xcassets; sourceTree = "<group>"; };
+		C9F22AB421834DA500033E7F /* HalloweenService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalloweenService.swift; sourceTree = "<group>"; };
+		C9F22AB621834FF100033E7F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		C9F22AB82183548A00033E7F /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E684FC6CAA0DB8764E49D7 /* Pods_HalloweenTabBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B8344684B2612F30F4F8DFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				918F94E9AD48AE394248BFAC /* Pods-HalloweenTabBar.debug.xcconfig */,
+				AE429F6173E786700E92C782 /* Pods-HalloweenTabBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C9F22A9421834D2D00033E7F = {
 			isa = PBXGroup;
 			children = (
 				C9F22A9F21834D2D00033E7F /* HalloweenTabBar */,
 				C9F22A9E21834D2D00033E7F /* Products */,
+				6B8344684B2612F30F4F8DFD /* Pods */,
+				DD573B5C96C93587E83D3E7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +78,23 @@
 			children = (
 				C9F22AA021834D2D00033E7F /* AppDelegate.swift */,
 				C9F22AA221834D2D00033E7F /* ViewController.swift */,
-				C9F22AA421834D2D00033E7F /* Main.storyboard */,
+				C9F22AB421834DA500033E7F /* HalloweenService.swift */,
 				C9F22AA721834D2F00033E7F /* Assets.xcassets */,
+				C9F22AB221834D9700033E7F /* FlatUIColorsSwift.xcassets */,
 				C9F22AA921834D2F00033E7F /* LaunchScreen.storyboard */,
 				C9F22AAC21834D2F00033E7F /* Info.plist */,
+				C9F22AB621834FF100033E7F /* MainTabBarController.swift */,
+				C9F22AB82183548A00033E7F /* DummyViewController.swift */,
 			);
 			path = HalloweenTabBar;
+			sourceTree = "<group>";
+		};
+		DD573B5C96C93587E83D3E7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				139A63C3A88C4458D5A3D94D /* Pods_HalloweenTabBar.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9F22AAF21834D2F00033E7F /* Build configuration list for PBXNativeTarget "HalloweenTabBar" */;
 			buildPhases = (
+				971D910C775EF844D7A6043D /* [CP] Check Pods Manifest.lock */,
 				C9F22A9921834D2D00033E7F /* Sources */,
 				C9F22A9A21834D2D00033E7F /* Frameworks */,
 				C9F22A9B21834D2D00033E7F /* Resources */,
+				A17BE269A68FDAF114D2DC60 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,18 +159,60 @@
 			files = (
 				C9F22AAB21834D2F00033E7F /* LaunchScreen.storyboard in Resources */,
 				C9F22AA821834D2F00033E7F /* Assets.xcassets in Resources */,
-				C9F22AA621834D2D00033E7F /* Main.storyboard in Resources */,
+				C9F22AB321834D9700033E7F /* FlatUIColorsSwift.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		971D910C775EF844D7A6043D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HalloweenTabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A17BE269A68FDAF114D2DC60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HalloweenTabBar/Pods-HalloweenTabBar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HalloweenTabBar/Pods-HalloweenTabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9F22A9921834D2D00033E7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F22AB521834DA500033E7F /* HalloweenService.swift in Sources */,
 				C9F22AA321834D2D00033E7F /* ViewController.swift in Sources */,
+				C9F22AB721834FF100033E7F /* MainTabBarController.swift in Sources */,
+				C9F22AB92183548A00033E7F /* DummyViewController.swift in Sources */,
 				C9F22AA121834D2D00033E7F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +220,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C9F22AA421834D2D00033E7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9F22AA521834D2D00033E7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9F22AA921834D2F00033E7F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +349,7 @@
 		};
 		C9F22AB021834D2F00033E7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918F94E9AD48AE394248BFAC /* Pods-HalloweenTabBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +368,7 @@
 		};
 		C9F22AB121834D2F00033E7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE429F6173E786700E92C782 /* Pods-HalloweenTabBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
